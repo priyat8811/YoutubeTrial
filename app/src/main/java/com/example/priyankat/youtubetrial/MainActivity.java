@@ -36,7 +36,7 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
         player.setPlaybackEventListener(playbackEventListener);
         if (!wasRestored) {
             //player.cueVideo("fhWaJi1Hsfo"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
-            player.cuePlaylist(PlayList_ID);
+            //player.cuePlaylist(PlayList_ID);
         }
     }
 
